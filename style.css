@@ -1,0 +1,84 @@
+body{
+    display: block;
+    margin-left: 40%;
+}
+
+body,
+input,
+button {
+    font-size: 14px;
+    font-family: cursive, serif;
+    color: #202124;
+}
+
+.google-img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    margin-top: 11%;
+}
+
+#round {
+    background-color: transparent;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 16px;
+    width: 638px;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin-left: -20%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#round:hover {
+    box-shadow: 10px 10px 8px #888888;
+}
+
+#mp-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+#mp-button:hover {
+    border: 1px solid #d9d9da;
+    box-shadow: 1px 1px 1px #d9d9da;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+header > a{
+     margin-right: 20px;
+     color: #607fdc;
+     cursor: pointer;
+}
+header > a:hover{
+    color: #1650ff;
+}
