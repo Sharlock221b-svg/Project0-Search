@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="adv-style.css" />
+    <title>Advanced Search</title>
+  </head>
+  <body>
+    <header id="nav">
+        <img
+        alt="Google"
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        width="100"
+        data-atf="1"
+        data-frt="0"
+        class="nav-img"
+      />
+      <div id="links">
+      <a href="index.html"><h3>Home Page</h3></a>
+      <a href="images.html"><h3>Image Search</h3></a>
+      </div>
+    </header>
+    <main>
+        <h2 style="color: rgb(243, 27, 27);">Advanced Search</h2>
+        <hr>
+        <h3 style="font-weight: 200;">Find pages with..</h3>
+        <form action="https://google.com/search">
+            <p>all these words: <input type="text" name="q" id="full" class="in"></p>
+            <p>this exact word or phrase: <input type="text" name="as_epq" id="full" class="in"></p>
+            <p>any of these words: <input type="text" name="as_oq" id="full" class="in"></p>
+            <p>none of these words: <input type="text" name="as_eq" id="full" class="in"></p>
+            <p>numbers ranging from: <input type="text" name="as_nlo" class="in"> to<input type="text" name="as_nhi" class="in"></p>
+            <p><input type="submit" value="Advanced Search" class="button"></p>
+        </form>
+    </main>
+  </body>
+</html>

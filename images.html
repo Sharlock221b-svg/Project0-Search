@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Search</title>
+    <title>Images</title>
   </head>
   <body>
     <header>
-    <a href="images.html"><h3>Image Search</h3></a>
-    <a href="advanced.html"><h3>Advanced Search</h3></a>
+      <a href="index.html"><h3>Home Page</h3></a>
+      <a href="advanced.html"><h3>Advanced Search</h3></a>
     </header>
 
     <img
@@ -23,14 +23,13 @@
       data-frt="0"
     />
     <form action="https://google.com/search">
-      <input type="text" name="q" id="round" placeholder="Google Search" />
-      <input type="submit" value="Google Search" id="mp-button" />
+      <input type="text" name="q" id="round" placeholder="Google Images Search" />
+      <input type="hidden" name="tbm" value="isch" />
       <input
-        value="I'm Feeling Lucky"
-        aria-label="I'm Feeling Lucky"
-        id="mp-button"
         type="submit"
-        data-ved="0ahUKEwja87r0nMvqAhWOmuAKHSbxAeIQnRsIDQ"
+        value="Google Search"
+        id="mp-button"
+        style="margin-left: 76px"
       />
     </form>
   </body>
